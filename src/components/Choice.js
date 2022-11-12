@@ -1,32 +1,58 @@
 import React from 'react'
-import { Input } from 'semantic-ui-react'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import DeleteIcon from '@mui/icons-material/Delete';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
 import AddLinkIcon from '@mui/icons-material/AddLink';
+import Button from '@mui/material/Button';
+import Input from '@mui/material/Input';
+
 
 const InputExampleActionLabeledButton = () => (
-   
-<div className='choice'>
+    <>
 
-    <header className='spa'><DragIndicatorIcon/></header>
+        <h4 className='lin'> Choice</h4>
+        <h4 className='math'> Match</h4>
+    
+        <div className='choice'
+         sx={{
+            
+            width:{
+              xs:40,
+              sm :200,
+              lg :300,
+              md :400,
+              xl :500,
+            }
+          }}>
 
-     <Input defaultValue='This  is Choice 1'/>
+            <header className='span'
+            sx={{ width:{
+                xs:140,
+              } 
+            }}><DragIndicatorIcon/></header>
 
-     <button style={{color:'black',border:' 1px solid gray',}}> <AddLinkIcon/> </button> 
+            <Input  size="small" style={{border:'1px solid gray'}}
+             sx={{
+                 width:{
+                      xs:150
+                     } }} 
+               defaultValue='This  is Choice 1'/>
 
-     <h1 style={{color:'green' , fontSize:''}}> <ArrowRightAltIcon/> </h1>
+            <Button sx={{
+                 width:{
+                      xs:10
+                     } }} style={{color:'black',border:' 1px solid gray',}}> <AddLinkIcon/> </Button> 
 
-     <Input defaultValue='This is Match 1'/>
+            <h1 style={{color:'green'}}><ArrowRightAltIcon/></h1>
 
-     <button style={{color:'black',border:' 1px solid gray'}}> <AddLinkIcon/> </button> 
+            <Input size="small" style={{border:'1px solid gray'}} defaultValue='This is Match 1'/>
 
-     <button style={{color:'gray' , gap :'10px',}}> <DeleteIcon/> </button> 
+            <Button style={{color:'black',border:'1px solid gray'}}> <AddLinkIcon/> </Button> 
 
-</div>
-  
-  
+            <Button style={{color:'gray',border:'1px solid gray'}}><DeleteIcon/></Button> 
 
+        </div>
+    </>
 )
 
 
