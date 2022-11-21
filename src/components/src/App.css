@@ -1,0 +1,176 @@
+.drop{
+  width: 20%;
+  margin: 50px;
+  margin-left: 20px;
+}
+.score{
+  margin: 60px;
+  margin-left: 200px;
+  display: flex;
+  position: absolute;
+}
+.parah{
+  margin-top: 10px;
+}
+.switch{
+  margin-left: 320px;
+  margin-top: 30px;
+  display: flex;
+  position: absolute;
+
+}
+.pro{
+  display: flex;
+  position: absolute;
+  margin-top: 150px;
+}
+
+
+
+.add{
+  display: flex;
+  position: absolute;
+ margin:100px;
+ margin-left: 570px;
+ margin-top: px;
+ 
+}
+.index{
+  display: flex;
+}
+  .span{
+    margin-top: 20px;
+  }
+  .arrow{
+    display: flex;
+    color: green;
+    height: 50vh;
+
+
+    position: absolute;
+    size: 120px;
+  }
+.text{
+  display: flex;
+  position: absolute;
+  ;
+}
+.match{
+ width: 100%;
+ display: flex; 
+ 
+ 
+ position: relative;
+ 
+}
+.choice{ 
+  width: 100%;
+  gap: 10px;
+  top: 320px;
+  margin-top: 140px;
+  position: absolute;
+  display: flex;
+ }
+.left{
+  display: flex;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 70px;
+
+}
+
+.down{
+  margin-left: 300px;
+  margin-top: 10px;
+  display: flex;
+  position: absolute;
+}
+.label{
+  margin: 100px;
+  margin-left: 1px;
+  margin-top: 180px;
+  display: flex;
+  position: absolute;
+}
+.flex{
+  height: 80vh;
+  display: flex;
+  position: absolute;
+  margin: 100px;
+  margin-top: 30px;
+  border: 2px solid  rgb(88, 88, 245);
+  border-radius: 10px;
+}
+.check{
+  margin-top: 250px;
+  margin-left: 20px;
+}
+.two{
+  width: 95%;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  color: blue;
+  margin-top:818px;
+  text-align: center;
+  border-style: ridge;
+  border-color: rgb(88, 88, 245);
+}
+.end{
+  width: 58%;
+  height: 10vh;
+  display: flex;
+  position: absolute;
+  margin-top: 45px;
+}
+.lin{
+  display: flex;
+  position: absolute;
+
+  margin-left: 60PX;
+ 
+}
+.prompt{
+  color: blue;
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+.expand{
+  display: flex;
+  position: absolute;
+  margin: 100px;
+  margin-left:70px;
+  margin-top: px;
+}
+.math{
+  
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.div{
+  width: 100%;
+  height: 90vh; 
+  display: flex;
+  margin-left: 30px;
+  
+}
+.out{
+  display: flex;
+  position: relative;
+  left: 350px;
+  top: 60px;
+}
+.name{
+  color: blue;
+  margin: 100px;
+  display: flex;
+  position: absolute;
+  margin-top: 100px;
+}
+.score{
+  display: flex;
+  position: absolute;
+  margin-left: 30px;;
+}
